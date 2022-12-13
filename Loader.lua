@@ -18,12 +18,6 @@ if(whitelisted == false) then
     return
 end
 
-if game.PlaceId ~= 5769070963 then
-    messagebox("You are not in the correct game, please ensure you are in 'Da Hood'.", "Agony", 0)
-    error("You are not in the correct game, please ensure you are in 'Da Hood'.")
-    return
-end
-
 setfpscap(5)
 game:GetService("RunService"):Set3dRenderingEnabled(false)
 
